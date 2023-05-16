@@ -1,0 +1,114 @@
+/* Config RESET */  
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    src: url("../../../assets/fonts/segoeui.ttf");
+}
+
+body {
+    background-color: #1d1d1d;
+}
+
+/* Config BARRA MENU */  
+.toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #171717;
+    color: #f9f9f9;
+}
+
+.toolbar #logo-construção {
+    height: 40px;
+    margin: 0 16px;
+}
+
+.toolbar #logo-linkedin {
+    height: 30px;
+    margin: 0 16px 0 0;
+}
+
+.toolbar #logo-github {
+    height: 30px;
+    margin: 0 5px;
+}
+
+.toolbar #logo-linkedin:hover,
+.toolbar #logo-github:hover {
+    opacity: 0.8;
+}
+
+/* Config DIV CENTRAL */    
+.center {
+    max-width:  1100px;
+    padding: 0 2%;
+    display: flex;
+    margin: 100px auto;
+}
+
+/* Config DIV ESQUERDA */  
+.content-chamada {
+    width: 60%;
+    margin-top: 110px;
+    padding: 0 80px 0 30px;
+    color: #f9f9f9;
+}
+
+.content-chamada h2 {
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
+
+.content-chamada h3 {
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
+.content-chamada a {
+    color: #1d1d1d;
+    text-decoration: none;
+    background-color: #f9f9f9;
+    padding: 10px 17px;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+.content-chamada a:hover {
+    opacity: 0.8;
+  }
+
+/* Config DIV DIREITA */  
+.content-img {
+    width: 40%;
+    position: relative;
+    padding: 50px 30px 0 0;
+}
+
+.content-img img {
+    max-width: 100%;
+    position: absolute;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: #171717;
+}
+
+footer div h4 {
+    font-weight: normal;
+    color: #f9f9f9;
+    padding: .5rem;
+}
