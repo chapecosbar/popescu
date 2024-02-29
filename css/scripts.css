@@ -30,6 +30,11 @@ body {
     margin: 0 16px;
 }
 
+.toolbar #logo-instagram {
+    height: 30px;
+    margin: 0 16px 0 0;
+}
+
 .toolbar #logo-linkedin {
     height: 30px;
     margin: 0 16px 0 0;
@@ -41,7 +46,8 @@ body {
 }
 
 .toolbar #logo-linkedin:hover,
-.toolbar #logo-github:hover {
+.toolbar #logo-github:hover,
+.toolbar #logo-instagram:hover {
     opacity: 0.8;
 }
 
