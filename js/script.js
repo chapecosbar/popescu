@@ -12,7 +12,7 @@ rolar.from("span", {
     }
 })
 
-let text = document.querySelector('.content-chamada h2')
+let text = document.querySelector('h2')
 let textString = text.textContent
 let split = textString.split("")
 text.textContent = ""
