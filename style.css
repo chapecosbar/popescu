@@ -21,7 +21,7 @@ h2
     display: flex;
     font-weight: 400;
     text-transform: uppercase;
-    -webkit-box-reflect: below -22px linear-gradient (transparent, #0002);
+    -webkit-box-reflect: below -48px linear-gradient (transparent, #0002);
 }
 h2 span:nth-child(n+11)
 {
