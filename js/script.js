@@ -1,7 +1,21 @@
+let rolar = gsap.timeline();
+rolar.from("span", {
+    y:-100,
+    opacity:0,
+    scrollTrigger: {
+        pin: true,
+        scrub:1,
+        trigger: "section",
+    },
+    stagger: {
+        amount: 2
+    }
+})
+
 let text = document.querySelector('.content-chamada h2')
 let textString = text.textContent
 let split = textString.split("")
 text.textContent = ""
 for(let i=0; i < split.length; i++){
-    text.innerHTML += "<span>" + split[i] + "</span>"
+    text.innerHTML += "<span>" + split[i] + "</span>";
 }

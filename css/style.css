@@ -123,3 +123,8 @@ footer div h4 {
     color: #f9f9f9;
     padding: .5rem;
 }
+.content-chamada h2 span:nth-child(n+11)
+{
+    color: #812a89;
+    font-weight: 700;
+}
